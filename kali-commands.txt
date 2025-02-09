@@ -1,0 +1,89 @@
+-------------------------------------------------------------------------------------LINUX-TERMINAL-COMMANDS-------------------------------------------------------------------------------------
+|	Desktop-Error-Commands																					|
+|																								|
+|	1.	xfdesktop						#To get desktop icons back												|
+|	2.	xfwm4							#To restart windows manager and recover buttons										|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|	System Update and Upgrade Commands																			|				
+|																								|				
+|	1.	sudo apt-get update					#To update the existing version of the already installed packages							|	
+|	2.	sudo apt-get upgrade					#To install the new packages and remove the ones not needed								|	
+|	3.	sudo apt-get dist-upgrade				#To upgrage the installed linux-distribution										|	
+|	4.	sudo apt-get full-upgrade				#To completeyly upgrade the system											|	
+|	5.	sudo apt-get autoremove					#To remove the packages that are no longer needed									|
+|	6.	sudo apt search keyword					#To search for the package, incase we don't know the exact name of the package						|
+|									#Example: sudo apt search screenshot | grep KDE	[For command 6]								|
+|	7.	sudo apt install package_name				#To install a package													|
+|																								|									
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|				
+|	Anaconda-Navigator Commands																				|
+|																								|
+|	1.	conda update -n base conda				#To update the conda package manager to the latest version in your base environment					|	
+|	2.	conda update -n base anaconda-navigator			#To use conda conda to update Navigator in your base environment							|	
+|	3.	anaconda-navigator					#To launch anaconda navigator												|	
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|				
+|	Navigation Commands																					|																	
+|	1.	ls							#To list the contents of the directory											|	
+|	2.	ls -ltrh						#To list the contents of the directory | l=long listing; t=time; r=reverse order; h=human readable			|	
+|	3.	cd							#To return to home directory												|	
+|	4.	cd /path						#To enter the specified directory											|
+|	5.	cd ..							#To move 1 directory back												|
+|	6.	cd ../..						#To move 2 directories back												|
+|	7.	cp /old-path/filename /new-path/filename		#To copy file from one directory to another										|
+|	8.	mv /old-path/filename /new-path/filename		#To move file from one directory to another										|
+|	9.	mv old_name new_name					#To rename file														|
+|	10.	mkdir							#To create a new directory												|
+|	11.	mkdir dir1 dir2 dir3					#To create multiple directories												|
+|	12.	rm filename						#To delete a file													|
+|	13.	rm -r directory_name					#To delete a directory													|
+|	14.	thunar							#To open windows manager at home directory; Use nautilus for Ubuntu							|
+|	15.	thunar /path						#To open windows manager at home directory										|
+|	16.	exit							#To exit terminal													|
+|	17A.	cd ~/.local/share/Trash/files				#To access the files moved to Trash											|
+|	17B.	cd ~/.local/share/Trash/info				#To access the metatdata of the files stored in Trash along with their original paths					| 
+|																								|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|	Root Account																						|
+|	1.	sudo su							#To access root account													|
+|	2.	sudo -i							#To access root account													|
+|	3.	exit							#To exit root account (if in root account)										|
+|																								|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|	System-Commands																						|
+|	1.	poweroff						#To shutdown the system													|
+|	2.	reboot							#To restart the system													|
+|	3.	lsb_release -a						#To know the details of the installed OS										|
+|	4.	whoami							#To know the user currently logged-in											|
+|	5.	nproc --a						#To list the number of available cores											|
+|	6.	which command_name					#To list the path of executable files/commands										|
+|	7.	du -sh							#To check the memory usage of a directory in human readable format							|
+|	8.	htop							#To open interactive process-viewer											|
+|	9.	lsb_release -a						#To get the details of the installed OS											|
+|	10.	ncdu /							#To run Disk Usage Analyser												|
+|	11.	ifcongig						#To display IP address, network interface and their status								|
+|	12.	ip a							#To display IP address													|
+|	12.	ip addr							#To display IP address													|											
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|	File Execution Permissions																				|
+|	1.	pthon3 script.py					#To execute a pythom script												|
+|	2.	tar -cvzf file_name.tar.gz /path			#To create tar.gz zipped file												|
+|	3.	tar -xvzf file_name.tar.gz				#To untar .tar.gz file													|
+|	4. 	chmod a+r						#To give writing permission to every user; Use u in place of a and it will consider only owner user			|
+|	6. 	chmod a-r						#To remove the writing permission from every user; Use u in place of a and it will consider only owner user		|
+|	7. 	chmod a+w						#To give writing permission to every user; Use u in place of a and it will consider only owner user			|
+|	8. 	chmod a-w						#To remove the writing permission from every user; Use u in place of a and it will consider only owner user		|
+|	9. 	chmod a+x						#To give executing permissions to every user; Use u in place of a and it will consider only owner user			|
+|	10.	chmod a-x						#To remove executing permissions from every user; Use u in place of a and it will consider only owner user		|
+|	11.	ls -l script.py						#To verify the permissions of a file											|
+|	12.	./filename.sh						#To run an executable bash file
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+|------------------------------------------------------------------------------------LINUX-KEYBOARD-SHORTCUTS-----------------------------------------------------------------------------------|
+|																								|
+|	1.	Ctrl+Alt+T			#To open terminal																|
+|	2.	Alt+F2				#To open Run dialog-box																|
+|	3.	Ctrl+Alt+F4			#To access the Fourth Virtual Terminal														|
+|	4.	Ctrl+Alt+F7			#To get back to the main graphical environment													|
+|	5.	Alt+F3				#To run Application Finder															|
+|	6.	Ctrl+Shift+D			#To split Terminal																|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
